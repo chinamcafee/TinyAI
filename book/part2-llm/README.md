@@ -10,7 +10,7 @@
 
 ## 学习路径
 
-``mermaid
+```mermaid
 graph TB
     A[第13章: Transformer革命] --> B[第14章: GPT系列模型]
     B --> C[第15章: 大模型优化技术]
@@ -89,7 +89,7 @@ graph TB
 
 ## 技术架构
 
-``mermaid
+```mermaid
 graph TB
     subgraph "基础层"
         A[注意力机制<br/>Attention]
