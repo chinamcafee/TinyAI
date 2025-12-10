@@ -70,6 +70,11 @@ public class MnistMlpExam {
         //===4,效果评估==
         trainer.evaluate();
 
+        //===5,保存模型==
+        System.out.println("保存模型到 models/mnist_mlp.model");
+        model.saveModel("models/mnist_mlp.model");
+        System.out.println("模型保存完成！");
+
 //        model.plot();
     }
 //    epoch = 0, loss:1.8379626

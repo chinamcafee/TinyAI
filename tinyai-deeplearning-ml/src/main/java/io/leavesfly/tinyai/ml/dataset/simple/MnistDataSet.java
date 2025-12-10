@@ -104,7 +104,7 @@ public class MnistDataSet extends ArrayDataset {
 
     public void downloadMnist() throws IOException {
         File outputDir = new File(MnistDir);
-        String mnistUrl = "http://yann.lecun.com/exdb/mnist/";
+        String mnistUrl = "https://dataset.bj.bcebos.com/mnist/";
         String[] files = {"train-images-idx3-ubyte.gz", "train-labels-idx1-ubyte.gz", "t10k-images-idx3-ubyte.gz", "t10k-labels-idx1-ubyte.gz"};
 
         for (String file : files) {
